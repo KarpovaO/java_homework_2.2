@@ -3,10 +3,11 @@ public class Main {
         int account = 100;
         int deposit = 1100;
         int totalAmount = account + deposit;
-        if (deposit > 1000) { int bonus = deposit / 100;
+        int bonus = deposit / 100;
+        if (deposit > 1000) {
 
-            System.out.println(totalAmount + bonus + "р. бонус = " + bonus);}
-        else{
+            System.out.println(totalAmount + bonus + "р. бонус = " + bonus);
+        } else {
             System.out.println("сумма = " + totalAmount + " (р. бонусов нет)");
         }
     }
